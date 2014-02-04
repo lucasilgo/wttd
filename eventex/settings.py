@@ -80,13 +80,3 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR.child('staticfiles')
 STATIC_URL = '/static/'
-
-
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR.child('db.sqlite3'),
-    }
-}
-"""
