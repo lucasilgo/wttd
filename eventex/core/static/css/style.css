@@ -34,3 +34,21 @@ body {
     font-family: "Lucida Sans Unicode", sans-serif;
     text-align: left;
 }
+
+/*===============================================
+Forms
+===============================================*/
+.form-base {
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.button {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: #e0e0e0;
+    font-size: medium;
+    background-color: #b22222;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 400px;
+}

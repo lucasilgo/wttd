@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{STATIC_URL}}css/style.css">
+        <link rel="icon" href="{{STATIC_URL}}img/favicon.png">
+        <title>Eventex - o SEU evento do SEU jeito</title>
+    </head>
+    
+    <body>
+        <header class="logo container">
+            <img src="{{STATIC_URL}}img/logo.png" alt="Eventex">
+        </header>
+        <div class="container">
+            <div class="logo box">
+                <div id="content">
+                    {% block content %}
+                    {% endblock content %}
+                </div>
+            </div>
+            <div class="rodape">
+                <p>&copy; Copyright Welcome to the Django
+                    <a href="https://www.djangoproject.com/" target="_blank">
+                        <img align="right" src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" alt="Django Site">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
